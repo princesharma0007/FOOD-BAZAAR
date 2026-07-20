@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Punjabi Tadka",
+        "image": "./images/biryani.jpg",
+        "category": "North Indian",
+        "rating": 4.5,
+        "price": 250,
+        "deliveryTime": "25-30 mins",
+        "veg": true
+    },
+    {
+        "id": 2,
+        "name": "Pizza Hub",
+        "image": "./images/pizza.jpg",
+        "category": "Italian",
+        "rating": 4.3,
+        "price": 399,
+        "deliveryTime": "30-35 mins",
+        "veg": true
+    },
+    {
+        "id": 3,
+        "name": "Burger Point",
+        "image": "./images/burger.jpg    ",
+        "category": "Fast Food",
+        "rating": 4.2,
+        "price": 199,
+        "deliveryTime": "20-25 mins",
+        "veg": true
+    },
+    {
+        "id": 4,
+        "name": "South Spice",
+        "image": "./images/dosa.jpg",
+        "category": "South Indian",
+        "rating": 4.7,
+        "price": 220,
+        "deliveryTime": "15-20 mins",
+        "veg": true
+    },
+    {
+        "id": 5,
+        "name": "Chinese Wok",
+        "image": "./images/rolls.jpg",
+        "category": "Chinese",
+        "rating": 4.4,
+        "price": 280,
+        "deliveryTime": "30-40 mins",
+        "veg": false
+    },
+    {
+        "id": 6,
+        "name": "Biryani House",
+        "image": "./images/biryani.jpg",
+        "category": "Biryani",
+        "rating": 4.8,
+        "price": 350,
+        "deliveryTime": "25-35 mins",
+        "veg": true
+    }
+]
