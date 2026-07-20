@@ -1,4 +1,4 @@
-let restaurants = []; 
+let restaurants = [];
 
 const restaurantList = document.getElementById("restaurantList");
 const searchBox = document.getElementById("searchBox");
