@@ -4,7 +4,7 @@ const restaurantList = document.getElementById("restaurantList");
 const searchBox = document.getElementById("searchBox");
 
 
-fetch("./data/restaurants.json") 
+fetch("./data/restaurants.json")
     .then((response) => response.json())
     .then((data) => {
         restaurants = data;
