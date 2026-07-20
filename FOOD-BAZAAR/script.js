@@ -66,7 +66,7 @@ searchBox.addEventListener("input", function () {
             return true;
         }
 
-        return false;
+        return false; 
     });
 
     displayRestaurants(filteredRestaurants);
