@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD BAZAAR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-red-500 text-white shadow-lg">
+        <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+            <h1 class="text-3xl font-bold cursor-pointer" onclick="window.location.href='index.html'">
+                FOOD BAZAAR
+            </h1>
+            <button id="cart-btn" class="bg-white text-orange-500 px-4 py-2 rounded-lg font-semibold hover:bg-orange-100 transition">
+                Cart
+            </button>
+        </div>
+    </nav>
+
+    <section class="text-center py-10 bg-red-100">
+        <h2 class="text-4xl font-bold mb-3">
+            Welcome to FOOD BAZAAR
+        </h2>
+        <p class="text-gray-700 text-lg">
+            Discover the best restaurants near you.
+        </p>
+    </section>
+
+    <section class="max-w-6xl mx-auto mt-8 px-4">
+        <input id="searchBox" type="text" placeholder="🔍 Search Restaurant or Cuisine..."
+            class="w-full p-4 border rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-orange-500">
+    </section>
+
+    <section class="max-w-6xl mx-auto mt-8 px-4 pb-10">
+        <div id="restaurantList" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- JavaScript will populate this -->
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
